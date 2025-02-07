@@ -26,7 +26,59 @@
 
 let someNumber = 33
 let stringNumber = String(someNumber)
-console.log(stringNumber); //33
-console.log(typeof stringNumber); //string
+// console.log(stringNumber); //33
+// console.log(typeof stringNumber); //string
+
+// ********* Operations **************//
+
+let value = 55
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2/2)
+// console.log(2**3)
+// console.log(2%2)
+// console.log(2+2*3)
+// console.log((2+2)*3)
+// console.log(2**3**2)
+// console.log(2**9)
+// console.log(2**3**2) 
+
+//Increment and Decrement
+// let x = 5
+// x++
+// console.log(x);
+// x--
+// console.log(x);
+
+// let str1 = "Aditya"
+// let str2 = "Alka"
+// let str3 = str1 + " " + str2
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log(1 + 2 + "3");
+// console.log("1" + 2 + 3);
+// console.log("1" + (2 + 3));
+
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 3
+
+let gameCounter = 100
+gameCounter++;
+++gameCounter;
+console.log(gameCounter);
+
+//For Documentation Help
+//Link => https://tc39.es/ecma262/multipage/abstract-operations.html#sec-abstract-operations
+
+
+
 
 
