@@ -38,3 +38,37 @@ const myFunction = function() {
 console.log(myName);
 
 
+
+
+
+//++++++++++++++++++++++++ Stack & Heap  ++++++++++++++++++++++++++++++++++++
+//Stack => LIFO (Last In First Out) => Memory allocated on Stack is faster than Heap
+//Stack (primitive)
+
+//Heap => Memory allocated on Heap is slower than Stack => LIFO (Last In First Out) => FIFO (First In First Out)
+//Heap (Non-primitive)
+
+let myFname = "Aditya";
+
+let anotherName = "Prince"
+anotherName = myFname;
+console.log(myFname);
+console.log(anotherName);
+
+let userOne = {
+    name : "Aditya",
+    email : "aditya@gmail.com"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "golu@gmail.com"
+console.log(userOne);
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
+
