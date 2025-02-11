@@ -26,10 +26,3 @@ let newDate = new Date()
 console.log(newDate.getTime());
 console.log(newDate.getDay());
 console.log(newDate.getMonth() + 1);
-
-
-
-
-
-
-
