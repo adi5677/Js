@@ -6,7 +6,6 @@ let accountState;
 
 // accountId = 2 // Error: Assignment to constant variable. (no-const-assign)
 
-
 accountEmail = "hc@hc.com"
 accountPassword = "1234"
 accountCity = "Samastipur"
